@@ -1,0 +1,19 @@
+
+lsquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ŠıÍĞûÿÿÿÿ
+lsquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ƒ…°¡şÿÿÿÿ
+msquid:S2226"XRemove this misleading mutable servlet instance field or make it "static" and/or "final"(•ÕåÜ
+Tsquid:S1161":Add the "@Override" annotation above this method signature(Ïû©Öûÿÿÿÿ
+msquid:S2226"XRemove this misleading mutable servlet instance field or make it "static" and/or "final"(’¤ï
+Hsquid:S1172".Remove this unused method parameter "request".(¸›¥–ûÿÿÿÿ
+–squid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(‹¨¯¿
+rsquid:S2226"XRemove this misleading mutable servlet instance field or make it "static" and/or "final"(Œ€ïëÿÿÿÿÿ
+msquid:S2226"XRemove this misleading mutable servlet instance field or make it "static" and/or "final"(Ş”èâ
+;squid:S1170"!Make this final field static too.(›˜åšûÿÿÿÿ
+6squid:S1170"!Make this final field static too.(‡ø«‰
+Osquid:S1161":Add the "@Override" annotation above this method signature(‹¨¯¿
+msquid:S2226"XRemove this misleading mutable servlet instance field or make it "static" and/or "final"(ı®õ«
+msquid:S1450"XRemove the "newMotels" field and declare it as a local variable in the relevant methods.(•ÕåÜ
+msquid:S2226"XRemove this misleading mutable servlet instance field or make it "static" and/or "final"(ùÒ¸
+msquid:S2226"XRemove this misleading mutable servlet instance field or make it "static" and/or "final"(íææÕ
+?squid:S1481"*Remove this unused "count" local variable.(æÕ¿¼
+jsquid:S1450"URemove the "motels" field and declare it as a local variable in the relevant methods.(ùÒ¸

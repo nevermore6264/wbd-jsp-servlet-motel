@@ -1,0 +1,155 @@
+
+.menu, .menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.logo-airbnb {
+    width: 120px;
+    height: 58px;
+    margin: auto;
+    position: absolute;
+    left: 10px;
+    z-index: 1;
+}
+
+.menu {
+    position: relative;
+    height: 58px;
+    width: 100%;
+    background: #181818;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.menu li {
+    border-bottom: 2px solid #181818;
+    border-top: 2px solid #303030;
+    min-width: 250px;
+}
+
+.menu > li {
+    display: inline-block;
+    position: relative;
+}
+
+.menu > li:first-child {
+    border-radius: 5px 0 0;
+}
+
+.menu a {
+    border-left: 3px solid rgba(0, 0, 0, 0);
+    color: #f5f7f7;
+    display: block;
+    font-size: 18px;
+    line-height: 54px;
+    padding: 0 25px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+/* onhover styles */
+.menu li:hover {
+    border-bottom: 2px solid #222222;
+    border-top: 2px solid #1B1B1B;
+}
+
+.menu li:hover > a {
+    color: #1ab188;
+}
+
+/* submenu styles */
+.submenu {
+    left: 0;
+    max-height: 0;
+    position: absolute;
+    top: 100%;
+    z-index: 0;
+    perspective: 400px;
+}
+
+.submenu li {
+    opacity: 0;
+    transform: rotateY(90deg);
+    transition: opacity .4s, transform .5s;
+}
+
+.menu .submenu li:hover a {
+    color: #1ab188;
+}
+
+.menu > li:hover .submenu, .menu > li:focus .submenu {
+    max-height: 2000px;
+    z-index: 10;
+}
+
+.menu > li:hover .submenu li, .menu > li:focus .submenu li {
+    opacity: 1;
+    transform: none;
+}
+
+/* CSS3 delays for transition effects */
+.menu li:hover .submenu li:nth-child(1) {
+    transition-delay: 0s;
+}
+
+.menu li:hover .submenu li:nth-child(2) {
+    transition-delay: 50ms;
+}
+
+.menu li:hover .submenu li:nth-child(3) {
+    transition-delay: 100ms;
+}
+
+.menu li:hover .submenu li:nth-child(4) {
+    transition-delay: 150ms;
+}
+
+.menu li:hover .submenu li:nth-child(5) {
+    transition-delay: 200ms;
+}
+
+.menu li:hover .submenu li:nth-child(6) {
+    transition-delay: 250ms;
+}
+
+.menu li:hover .submenu li:nth-child(7) {
+    transition-delay: 300ms;
+}
+
+.menu li:hover .submenu li:nth-child(8) {
+    transition-delay: 350ms;
+}
+
+.submenu li:nth-child(1) {
+    transition-delay: 350ms;
+}
+
+.submenu li:nth-child(2) {
+    transition-delay: 300ms;
+}
+
+.submenu li:nth-child(3) {
+    transition-delay: 250ms;
+}
+
+.submenu li:nth-child(4) {
+    transition-delay: 200ms;
+}
+
+.submenu li:nth-child(5) {
+    transition-delay: 150ms;
+}
+
+.submenu li:nth-child(6) {
+    transition-delay: 100ms;
+}
+
+.submenu li:nth-child(7) {
+    transition-delay: 50ms;
+}
+
+.submenu li:nth-child(8) {
+    transition-delay: 0s;
+}

@@ -1,0 +1,12 @@
+
+;squid:S1659"&Declare "passWord" on a separate line.(Å·àß
+;squid:S1989"&Add a "try/catch" block for "forward".(ò¢ë‡
+8squid:S1659"#Declare "phone" on a separate line.(Å·àß
+msquid:S2226"XRemove this misleading mutable servlet instance field or make it "static" and/or "final"(š£ñª
+rsquid:S2226"XRemove this misleading mutable servlet instance field or make it "static" and/or "final"(¨ƒ¼¢ùÿÿÿÿ
+Tsquid:S1161":Add the "@Override" annotation above this method signature(Ïû©Öûÿÿÿÿ
+Osquid:S1161":Add the "@Override" annotation above this method signature(‹¨¯¿
+Hsquid:S1989"3Add a "try/catch" block for "setCharacterEncoding".(ï‡‹ê
+;squid:S1989"&Add a "try/catch" block for "forward".(ò¢ë‡
+›squid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Ïû©Öûÿÿÿÿ
+msquid:UselessImportCheck"KRemove this unused import 'com.codegym.motel.service.impl.UserServiceImpl'.(äŠ”Ü

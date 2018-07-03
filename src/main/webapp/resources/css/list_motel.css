@@ -1,0 +1,122 @@
+aside {
+    width: 20%;
+    float: left;
+    min-height: 700px;
+}
+
+article {
+    width: 78% !important;
+    float: right;
+    min-height: 700px;
+}
+
+.motel-border {
+    border: 1px solid #ccc;
+    width: 90%;
+    min-height: 280px;
+    box-shadow: 2px 3px 5px 6px #ccc;
+    border-radius: 3px;
+    margin-left: 10px;
+    margin-bottom: 50px;
+}
+
+.picture {
+    float: left;
+    width: 25%;
+}
+
+.picture img {
+    width: 200px;
+    height: 200px;
+    margin: 35px;
+    border-radius: 3px;
+    box-shadow: 0px 5px 5px 2px #ccc;
+}
+
+.one-motel {
+    float: left;
+    width: 50%;
+    margin-top: 25px;
+}
+
+.money-button {
+    float: right;
+    width: 25%;
+    margin-top: 40px;
+}
+
+.money-button .price {
+    padding-left: 45px;
+    font-size: 30px;
+    color: #1ab188;
+    font-weight: bold;
+
+}
+
+.click {
+    box-shadow: inset 0px 0px 0px 0px #d9fbbe;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #b8e356), color-stop(1, #a5cc52));
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#b8e356', endColorstr='#a5cc52');
+    background-color: #b8e356;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    text-indent: 0px;
+    border: 1px solid #83c41a;
+    display: inline-block;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: bold;
+    font-style: normal;
+    height: 50px !important;
+    width: 130px !important;
+    text-decoration: none;
+    text-align: center;
+    text-shadow: 1px 0px 0px #86ae47;
+    margin-left: 80px;
+    font-family: "Times New Roman" !important;
+}
+
+.click:hover {
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #a5cc52), color-stop(1, #b8e356));
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#a5cc52', endColorstr='#b8e356');
+    background-color: #a5cc52;
+}
+
+.click:active {
+    position: relative;
+    top: 1px;
+}
+
+.status {
+    font-size: 24px;
+    color: #FF0000;
+    margin-left: 20px;
+}
+
+.description {
+    color: #1ab188;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.description:hover {
+    color: coral;
+}
+
+.description:visited {
+    color: #ccc;
+}
+
+.information-motel {
+    margin-top: 7px;
+    margin-left: 40px;
+}
+.information-motel a{
+    font-size: 16px;
+    color: black;
+    line-height: 30px;
+}

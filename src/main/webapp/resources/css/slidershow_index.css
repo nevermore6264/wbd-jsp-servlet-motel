@@ -1,0 +1,60 @@
+.slider {
+    position: relative;
+    min-height: 600px;
+    width: 100%;
+}
+
+.slider img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+}
+
+.slider h1 {
+    z-index: 999;
+    background: #333;
+    text-align: center;
+    color: #fff;
+    line-height: 50px;
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+    height: 50px;
+    line-height: 1.5;
+    opacity: 0.8;
+}
+
+.slider > ul {
+    list-style-type: none;
+}
+
+.slider > ul li {
+    float: left;
+}
+
+.slider .btn {
+    cursor: pointer;
+    position: relative;
+    width: 40px;
+    height: 40px;
+    background: #333;
+    border: #dcdcdc 1px solid;
+    opacity: 0.8;
+    color: #fff;
+    z-index: 999;
+}
+
+.slider #btnPrev {
+    float: left;
+    top: 280px;
+    left: 10px;
+}
+
+.slider #btnNext {
+    float: right;
+    top: 280px;
+    right: 10px;
+}

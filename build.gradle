@@ -1,0 +1,40 @@
+plugins {
+    id 'java'
+    id 'war'
+}
+
+group 'codegym.whatevername'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'org.junit.jupiter', name: 'junit-jupiter-engine', version: '5.0.0'
+    providedCompile 'javax.servlet:javax.servlet-api:3.0.1'
+    compile group: 'mysql', name: 'mysql-connector-java', version: '5.1.46'
+    compile group: 'javax.servlet', name: 'jstl', version: '1.2'
+    // junit test
+    testCompile group: 'org.junit.jupiter', name: 'junit-jupiter-engine', version: '5.0.0'
+    testCompile group: 'org.mockito', name: 'mockito-all', version: '1.9.5'
+    compile group: 'commons-io', name: 'commons-io', version: '2.6'
+    compile group: 'commons-fileupload', name: 'commons-fileupload', version: '1.3.3'
+}
+test{
+    useJUnitPlatform()
+
+    testLogging {
+        events "PASSED", "STARTED", "FAILED", "SKIPPED", "STANDARD_OUT", "STANDARD_ERROR"
+    }
+    afterTest { desc, result ->
+        println "Testing ${desc.name} [${desc.className}]: ${result.resultType}"
+    }
+    reports {
+        html.enabled = true
+    }
+
+}
+

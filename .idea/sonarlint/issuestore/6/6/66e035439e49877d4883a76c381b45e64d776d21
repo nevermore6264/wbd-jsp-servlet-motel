@@ -1,0 +1,15 @@
+
+vsquid:S2068"U'password' detected in this expression, review this potentially hardcoded credential.(ã×áôøÿÿÿÿ8—Òë·Á,
+?squid:S1068"*Remove this unused "LOGGER" private field.(ùêèÏ
+dsquid:S2095"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ÉøÙ´
+csquid:S2095"GUse try-with-resources or close this "ResultSet" in a "finally" clause.(ò¡¥¹8ì¿´·Á,
+=squid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+@squid:S1168"+Return an empty collection instead of null.(¥¹ï
+=squid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+\squid:S2095"GUse try-with-resources or close this "ResultSet" in a "finally" clause.(ò¡¥¹
+ksquid:S2095"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ÉøÙ´8íÁ«·Á,
+csquid:S2095"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(‡Õ¹5
+\squid:S2095"GUse try-with-resources or close this "ResultSet" in a "finally" clause.(‚µŠ¯
+csquid:S2095"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(°«Õz
+?squid:S1148"#Use a logger to log this exception.(Ç’Çê8‡ìİ·Á,
+asquid:S2095"GUse try-with-resources or close this "Statement" in a "finally" clause.(é°Áµşÿÿÿÿ
